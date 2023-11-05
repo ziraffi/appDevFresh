@@ -12,8 +12,8 @@
     "expo": "^49.0.16",
     "expo-constants": "~14.4.2",
     "expo-linking": "~5.0.2",
-    "expo-router": "^1.5.3",
-    "expo-splash-screen": "^0.10.3",
+    "expo-router": "^2.0.0",
+    "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -34,7 +34,8 @@
   },
   "overrides": {
     "metro": "0.76.0",
-    "metro-resolver": "0.76.0"
+    "metro-resolver": "0.76.0",
+    "semver": "^7.5.3"
   },
   "private": true
 }
